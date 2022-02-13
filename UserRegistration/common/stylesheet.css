@@ -1,0 +1,36 @@
+html {
+    text-align: center;
+    background-color: rgb(220, 220, 220);
+}
+
+h1, p, label, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ErrorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+.FormLabel {
+    font-size:large;
+    color: rgb(20, 20, 20);
+}
+
+.FormButton {
+    background-color: rgb(20, 20, 20);
+    border: none;
+    color: white;
+    min-height: 30px;
+    min-width: 100px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.FormButton:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.FormButton:active {
+    background-color: rgb(20, 20, 20);
+}
